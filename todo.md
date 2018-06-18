@@ -4,28 +4,55 @@
 - Common Name
 - Taxonomic Name
 - Description
-- Picture
 
 ## Specimens
 - Species ID
 - Weight
-- Picture
 - Date
 
 ## Harvest
 - Species ID
 - Quantity
 - Weight
-- Picture
 - Date
 
 ## Meals
 - Name
 - Description
 - Quantity
-- Picture
 - Date
 
 ## Ingredients
 - Species ID
 - Meal ID
+
+## Pictures (polymorphic)
+- Reference ID
+- Reference Type
+- Filename
+- Date
+
+
+# Interface
+- Bulma
+- Server-side templates
+- D3.js charts
+
+## Templates
+- Home page / about
+- Activity log
+- Stats page
+- Login
+- Basic CRUD
+  - Species
+  - Specimens
+  - Harvest
+  - Meals
+- File upload / gallery
+
+## Javascript
+- Dynamic ingredient picker for meals
+- Stats
+  - Cumulative harvest weight
+  - Weight by day
+  - Weight by species
