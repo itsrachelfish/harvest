@@ -56,3 +56,7 @@
   - Cumulative harvest weight
   - Weight by day
   - Weight by species
+
+
+# Login system
+There will be no user accounts in the alpha version of the harvest app—all user authentication is performed via keypair signatures. A list of valid public keys will be stored within the app and the user will be prompted to sign some random data on the login page. Initially this process will require the user to sign a message using a program on their computer, however this could be streamlined by using a browser extension or the WebCryptoAPI.
